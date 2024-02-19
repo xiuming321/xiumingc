@@ -1,0 +1,117 @@
+.Hover:hover {
+    transform: translateY(-5px);
+    text-decoration: underline;
+    text-decoration-color: white;
+}
+
+body{
+    background-color: beige;
+}
+
+
+#About{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 60px;
+    top: -0px;
+    font-family: sans-serif;
+
+    transition: transform 0.3s ease ;
+}
+
+
+#Resume{
+    position: absolute;
+    left: 192px;
+    top: -0px;
+    font-family: sans-serif;
+    transition: transform 0.3s ease ;   
+}
+
+#Contact{
+    position: absolute;
+    left: 343px;
+    top: -0px;
+    font-family: sans-serif;
+    transition: transform 0.3s ease ;
+}
+
+#Instagram{
+    width: 35px;
+
+    position: absolute;
+    left: 1454px;
+    top: 15px;
+    transition: transform 0.3s ease ;   
+}
+
+
+#SnapChat{
+    position: absolute;
+   width: 35px;
+    left: 1350px;
+    top: 15px;
+    transition: transform 0.3s;
+}
+
+
+
+#box{
+    width: 450px;
+    height: 450px;
+    background-color: green;
+    position: absolute;
+    top: 150px;
+    left: 200px;
+}
+
+#AboutMe{
+    position: absolute;
+    top: 130px;
+    left: 680px;
+    font-size:x-large;
+}
+
+#AboutMe2{
+    position: absolute;
+    left: 680px;
+    top: 300px;
+}
+
+#Bottom{
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0.8;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+   }
+   
+    a {
+    text-decoration: none;
+    color: black;
+   } 
+  
+#down{
+    position: absolute;
+    top: 100%;
+    color: black;
+
+}
+
+#contact{
+    position: absolute;
+    top: 800px;
+    font-size: larger;
+    left: 10px;
+}
+
+
